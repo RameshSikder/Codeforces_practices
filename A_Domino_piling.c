@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+    int m,n;
+    scanf("%d %d", &m,&n);
+    int area = m*n;
+    int domino = area/(2*1);
+    printf("%d\n",domino);
+
+    return 0;
+}
